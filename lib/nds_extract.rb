@@ -8,12 +8,12 @@ def directors_totals(nds)
 
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
-  result = { 
+  result = {
   }
 
   rows = 0
-  columns = 0
   while rows < nds.length do
+    columns = 0
     while columns < nds[rows][:movies].length do
 
         if result[nds[rows][:name]]
