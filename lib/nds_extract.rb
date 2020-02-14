@@ -23,17 +23,17 @@ def directors_totals(nds)
             result[nds[rows][:name]] = nds[rows][:movies][columns][:worldwide_gross]
         columns += 1
         end
-    
+
     end
     rows += 1
-    
+
   end
 
 
 
   nds[rows][:movies][columns][:worldwide_gross]
 
-  
+
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
   # and total up all the
