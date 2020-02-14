@@ -31,7 +31,6 @@ def directors_totals(nds)
 
 
 
-  nds[rows][:movies][columns][:worldwide_gross]
 
 
   #
@@ -43,5 +42,5 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  nil
+  results
 end
